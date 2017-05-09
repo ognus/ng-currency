@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+        <title>ng-currency</title>
+    </head>
+    <body ng-app="app" ng-controller="AppController as $ctrl">
+        <input type="text" ng-model="$ctrl.value" ng-currency auto-fill="true">
+        <p>model value: {{$ctrl.value}}</p>
+
+        <script src="ng-currency.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
